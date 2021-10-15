@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="51b8ebeb1a184ae48af516522abe5bc6" Name="Diagram1">
+        <EntityTypeShape EntityType="BookstoreModel.Author" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookstoreModel.Book" Width="1.5" PointX="3" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookstoreModel.Category" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookstoreModel.FormDetail" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookstoreModel.OrderDetail" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookstoreModel.Order" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookstoreModel.Publisher" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookstoreModel.Supplier" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookstoreModel.User" Width="1.5" PointX="0.75" PointY="10.875" IsExpanded="true" />
+        <AssociationConnector Association="BookstoreModel.FK__Books__AuthorID__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="BookstoreModel.FK__Books__BookTypeI__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="BookstoreModel.FK__Books__Publisher__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="BookstoreModel.FK__FormDetai__BookI__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="BookstoreModel.FK__OrderDeta__BookI__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="BookstoreModel.FK__FormDetai__Suppl__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="BookstoreModel.FK__OrderDeta__Order__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="BookstoreModel.fk_Users_Orders" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
